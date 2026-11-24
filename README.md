@@ -81,8 +81,3 @@ Eight tests cover source-specific date parsing, malformed dates, birthday-aware 
 
 The local Python implementation is an executable correctness reference for the supplied nine-row files, not a claim that one Python process should handle billions of rows. `docs/architecture.md` describes the production pattern: immutable landing, distributed parsing/validation, idempotent batch manifests, Snowflake `MERGE`, clustering based on measured pruning, controlled country delivery, observability, and replay/backfill. For billions of daily records, use a distributed engine (e.g. Spark/Databricks) and Snowflake's bulk/streaming ingestion patterns based on latency needs; do not collect the full dataset into driver memory.
 
-## What has and has not been executed
-
-- The Python ETL and its seven tests were executed locally against the supplied sample files.
-- Snowflake SQL is a Snowflake-oriented reference script and has not been run against a live Snowflake account in this environment. The CSV-to-raw-VARIANT adapter, warehouse roles, stages, file formats, and operational scheduling must be configured in the target account.
-- No public GitHub/GitLab repository has been created or pushed. The local repository bundle is ready for review and upload; before publishing, replace any example identity mappings with approved identifiers and review the solution yourself.
