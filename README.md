@@ -19,8 +19,8 @@ Requires Python 3.10+; no runtime third-party package is required.
 
 ```bash
 # From the repository root
-PYTHONPATH=src python -m unittest discover -s tests -v
-PYTHONPATH=src python run_pipeline.py \
+python -m unittest discover -s tests -v
+python run_pipeline.py \
   --input-dir data/input \
   --output-dir data/output \
   --as-of-date 2022-09-01 \
@@ -37,7 +37,7 @@ To use a golden identity crosswalk, pass a JSON file mapping `COUNTRY:LOCAL_ID` 
 ```
 
 ```bash
-PYTHONPATH=src python run_pipeline.py --identity-map data/config/identity_map.example.json
+python run_pipeline.py --identity-map data/config/identity_map.example.json
 ```
 
 The example map is illustrative only; it intentionally shows how two source-system IDs can point to one enterprise member identity. Do not load that test map as real member data.

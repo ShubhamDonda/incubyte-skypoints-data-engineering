@@ -1,9 +1,12 @@
 import csv
 import json
 import tempfile
+import sys
 import unittest
 from datetime import date, datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from sky_points.pipeline import (
     calculate_age, flatten_redemptions, latest_record_wins, parse_date, run_pipeline,
