@@ -1,0 +1,4 @@
+global_member_id,source_country,source_member_id,member_name,dob,enrollment_date,last_flight_date,tier_code,agent_name,state,postal_code,is_active,member_type,age,stale_member,source_updated_at,ingested_at,source_file,source_row_number,record_hash
+IND:1,IND,1,Vikas,1998-12-01,2022-01-01,2022-06-15,SLV,,,,,I,23,False,2022-09-01T00:00:00+00:00,2022-09-01T00:00:00+00:00,india_members.csv,2,225fc22beaefc4e63b17260a43abf6fb5e88dbf360b348e58f71913a1488bae5
+IND:2,IND,2,Rahul,1982-08-13,2022-03-05,2022-03-10,GLD,,,,,C,40,True,2022-09-01T00:00:00+00:00,2022-09-01T00:00:00+00:00,india_members.csv,3,c2d5d142c55d0b56533c2c1d8a9d82c5aca8c2444498f8ea718804e160224aa3
+IND:3,IND,3,Sameer,1952-08-13,2022-02-20,2022-02-25,GLD,,,,,I,70,True,2022-09-01T00:00:00+00:00,2022-09-01T00:00:00+00:00,india_members.csv,4,3ffecc23f2a34bac3b45b55cb4ff596779b66baf689272fc46c6f0580314ee2f

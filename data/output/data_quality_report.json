@@ -1,0 +1,32 @@
+{
+  "as_of_date": "2022-09-01",
+  "ingested_at": "2022-09-01T00:00:00+00:00",
+  "source_rows_read": 9,
+  "member_rows_accepted_before_latest_wins": 8,
+  "current_member_rows": 8,
+  "member_rows_rejected": 1,
+  "member_rows_superseded_by_latest_record": 0,
+  "member_warning_count": 0,
+  "missing_dob_count": 4,
+  "stale_member_count": 5,
+  "duplicate_member_name_value_count": 1,
+  "duplicate_global_member_id_count_in_current": 0,
+  "redemption_rows_flattened": 2,
+  "redemption_error_count": 0,
+  "redemption_join_status_counts": {
+    "MATCHED": 2
+  },
+  "rows_by_country": {
+    "AUS": 2,
+    "IND": 3,
+    "USA": 3
+  },
+  "reject_reasons": {
+    "invalid_enrollment_date": 1
+  },
+  "notes": [
+    "Sample source IDs are only unique within each country file; namespaced IDs are used unless a golden identity map is supplied.",
+    "Sample sources do not provide a source update timestamp; ingestion time is used as a documented fallback.",
+    "The seven-digit USA date contract is interpreted as MDDYYYY; the source owner must confirm this format."
+  ]
+}

@@ -1,0 +1,2 @@
+source_file,source_row_number,raw_record,errors
+australia_members.csv,3,"{""Unique ID"": ""2"", ""Member Name"": ""Jonnathan"", ""Tier Type"": ""GLD"", ""Date of Birth"": ""1997-12-13"", ""Date of Enrollment"": ""2021-13-13"", ""Date of Flight"": ""2022-01-05""}",invalid_enrollment_date
