@@ -1,6 +1,6 @@
 {
-  "as_of_date": "2026-11-24",
-  "ingested_at": "2026-11-24T15:17:09.057059+00:00",
+  "as_of_date": "2022-09-01",
+  "ingested_at": "2022-09-01T00:00:00+00:00",
   "source_rows_read": 9,
   "member_rows_accepted_before_latest_wins": 8,
   "current_member_rows": 8,
@@ -8,7 +8,7 @@
   "member_rows_superseded_by_latest_record": 0,
   "member_warning_count": 0,
   "missing_dob_count": 4,
-  "stale_member_count": 8,
+  "stale_member_count": 5,
   "duplicate_member_name_value_count": 1,
   "duplicate_global_member_id_count_in_current": 0,
   "redemption_rows_flattened": 2,

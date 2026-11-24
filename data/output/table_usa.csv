@@ -1,4 +1,4 @@
 global_member_id,source_country,source_member_id,member_name,dob,enrollment_date,last_flight_date,tier_code,agent_name,state,postal_code,is_active,member_type,age,stale_member,source_updated_at,ingested_at,source_file,source_row_number,record_hash
-USA:1,USA,1,Sam,,2022-06-15,2022-08-20,PLT,,,,,,,True,2026-11-24T15:17:09.057059+00:00,2026-11-24T15:17:09.057059+00:00,usa_members.csv,2,a3fb501628de518b46623fae7f7b1fbfe61d1fb2c5695326e4adc86763fd0691
-USA:2,USA,2,John,,2022-01-05,2022-01-15,SLV,,,,,,,True,2026-11-24T15:17:09.057059+00:00,2026-11-24T15:17:09.057059+00:00,usa_members.csv,3,6776df7ba36eacf62624262a2f635c3bef73995ad58b8e2804605a5610b8d7d8
-USA:3,USA,3,Mike,,2021-12-28,2021-12-30,GLD,,,,,,,True,2026-11-24T15:17:09.057059+00:00,2026-11-24T15:17:09.057059+00:00,usa_members.csv,4,1b32ba6dae573f8b97b9b93a188e872c5dce46bcaad840ed46157b1c11682f89
+USA:1,USA,1,Sam,,2022-06-15,2022-08-20,PLT,,,,,,,False,2022-09-01T00:00:00+00:00,2022-09-01T00:00:00+00:00,usa_members.csv,2,70634e9f3db090c9e3f12dd50221b7b97864adf4ba45e16174fc99ef26c89b15
+USA:2,USA,2,John,,2022-01-05,2022-01-15,SLV,,,,,,,True,2022-09-01T00:00:00+00:00,2022-09-01T00:00:00+00:00,usa_members.csv,3,47b30fb335aa1ca5d22c1ca16b4fa32c76df856b0cce4df7a7872eef32d633cb
+USA:3,USA,3,Mike,,2021-12-28,2021-12-30,GLD,,,,,,,True,2022-09-01T00:00:00+00:00,2022-09-01T00:00:00+00:00,usa_members.csv,4,facd0b9e9a10d7b829539887afe720221f1b5ddfa4b4ae578023657934befd6d
